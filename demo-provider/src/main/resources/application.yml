@@ -1,0 +1,10 @@
+server:
+  port: 8080
+dubbo:
+  application:
+    name: test-server
+  registry:
+    address: zookeeper://120.78.201.30:2181
+  protocol:
+    port: 20880
+    name: dubbo

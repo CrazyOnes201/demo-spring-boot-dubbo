@@ -1,0 +1,9 @@
+server:
+  port: 8080
+dubbo:
+  application:
+    name: test-client
+  registry:
+    address: zookeeper://120.78.201.30:2181
+  consumer:
+    timeout: 3000
